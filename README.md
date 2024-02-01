@@ -1,76 +1,38 @@
-# Power BI Capstone Project: Unlocking YouTube Insights 📊
+# Power BI Capstone Project: YouTube Analytics
 
-**Task 1: Display the maximum uploads in a card visual.**
-- Load your YouTube dataset into Power BI using Power Query.
-- Create a new card visual.
-- Drag the 'Uploads' column from your dataset into the Values field of the card visual.
-- Set the aggregation of 'Uploads' to 'Maximum' in the Values field.
+This Power BI Capstone project aims to provide valuable insights and actionable recommendations for content creators and marketers using data extracted from YouTube's API. The dataset encompasses various engagement metrics and video attributes, allowing stakeholders to optimize their content strategies and enhance audience engagement on the platform.
 
-**Task 2: Display the minimum view ranks in a card visual.**
-- Create another card visual.
-- Drag the 'View Rank' column from your dataset into the Values field of the card visual.
-- Set the aggregation of 'View Rank' to 'Minimum' in the Values field.
+## Problem Statement
+The primary objective of this analysis is to uncover patterns, trends, and correlations within the YouTube dataset, focusing on engagement metrics and video attributes. The analysis aims to answer key questions guiding content creators and marketers in making informed decisions to improve their YouTube content and maximize viewer interaction.
 
-**Task 3: Display the average views for the last 30 days in a card visual. (Data Cleansing is required).**
-- Cleanse data by filtering out dates older than 30 days.
-- Create a new card visual.
-- Drag the 'Views' column from your dataset into the Values field of the card visual.
-- Set the aggregation of 'Views' to 'Average' in the Values field.
+## Features
+- Display maximum uploads, minimum view ranks, and average views for the last 30 days.
+- Generate a line chart to highlight titles and maximum uploads of videos.
+- Use spider maps (radar charts) to display channel types and ranks.
+- Create packed bubble charts to display category-wise subscribers.
+- Analyze views per subscriber and represent it in a table visual.
+- Create a decomposition tree to represent rank-wise categories.
+- Navigate between pages using blank navigation buttons.
+- Format report with headings, logos, and professional styling.
+- Publish report to Power BI Service.
+- Create a dashboard with important visuals.
 
-**Task 4: Generate a line chart to highlight the title and maximum upload only who crossed 2 lakh uploads.**
-- Create a line chart.
-- Filter data to include only records where 'Uploads' is greater than 200,000.
-- Drag 'Title' and 'Maximum Upload' into the appropriate fields in the line chart.
+## Instructions
+1. Download or clone the repository.
+2. Open the Power BI file in Power BI Desktop.
+3. Explore the dataset, visualizations, and insights.
+4. Make necessary adjustments or customizations as per requirements.
+5. Publish the report to Power BI Service for wider access.
+6. Share the insights and recommendations with stakeholders.
 
-**Task 5: Use a spider map (radar chart) to display channel type and channel rank.**
-- Create a radar chart.
-- Drag 'Channel Type' and 'Channel Rank' into the appropriate fields.
+## Credits
+This project is a culmination of efforts, utilizing Power BI's capabilities and YouTube's API data. Special thanks to all contributors and stakeholders involved in the project.
 
-**Task 6: Create a packed bubble chart to display category-wise subscribers.**
-- Create a packed bubble chart.
-- Drag 'Category' and 'Subscribers' into the appropriate fields.
+Feel free to reach out for any queries or feedback!
 
-**Task 7: Create a calculated column to find Views per Subscriber as ‘Viewed by Subscriber’.**
-- Open Power Query Editor.
-- Create a new column with the formula: Views per Subscriber = [Views] / [Subscribers].
+---
 
-**Task 8: Create a table visual to represent the channel type and views per subscriber.**
-- Create a table visual.
-- Drag 'Channel Type' and 'Viewed by Subscriber' into the appropriate fields.
-
-**Task 9: Create a measure to find total uploads and use the card visuals to represent the total uploads.**
-- Create a new measure in Power BI with the formula: Total Uploads = SUM([Uploads]).
-- Use the card visual to display the total uploads using this measure.
-
-**Task 10: Create a decomposition tree to represent rank-wise categories.**
-- Create a decomposition tree visual.
-- Drag 'Category' and 'Rank' into the appropriate fields.
-
-**Task 11: Create a blank navigation button to navigate between two pages.**
-- Insert a blank button.
-- Use the "Action" property to set a hyperlink or navigate to another page within the report.
-
-**Task 12: Format your report by adding headings and logos.**
-- Use the formatting options to add titles, subtitles, and logos.
-- Adjust color schemes and fonts for a professional look.
-
-**Task 13: Publish your report to the Power BI Service.**
-- Click on the "Publish" button in Power BI Desktop.
-- Choose your Power BI workspace and publish the report.
-
-**Task 14: Create a dashboard with 3 important visuals.**
-- Create a new dashboard.
-- Drag and drop the key visuals (e.g., card visuals, radar chart, packed bubble chart) onto the dashboard.
-
-**Task 15: From the Power BI Service, download the copy of your report in a pdf/ppt format.**
-- Open your report in the Power BI Service.
-- Click on "File" and choose "Export".
-- Select the desired format (PDF or PPT) and download your report.
-
-After completing these tasks, you'll have a comprehensive Power BI report with valuable insights from the YouTube dataset.
-
-📈 **Outcome:**
-The project resulted in a comprehensive Power BI report offering valuable insights for content creators and marketers to refine their YouTube strategies. From maximum uploads to rank-wise categories, the report provides a holistic view of the dataset.
+By Yaseer Arafath F | 19 Jan 2024
 
 🌐 **Take a Look:**
 https://www.linkedin.com/feed/update/urn:li:activity:7153826611732070401?utm_source=share&utm_medium=member_desktop
