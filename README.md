@@ -25,9 +25,6 @@ The primary objective of this analysis is to uncover patterns, trends, and corre
 5. Publish the report to Power BI Service for wider access.
 6. Share the insights and recommendations with stakeholders.
 
-## Credits
-This project is a culmination of efforts, utilizing Power BI's capabilities and YouTube's API data. Special thanks to all contributors and stakeholders involved in the project.
-
 Feel free to reach out for any queries or feedback!
 
 ---
